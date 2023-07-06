@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_login"
+
+        />
+    <View
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/background_login"
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/mtvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:text="Login"
+       android:textSize="40dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="casual"
+        android:textColor="@color/black"/>
+
+    <EditText
+
+        android:id="@+id/medtEmail"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="143dp"
+        android:ems="10"
+       android:hint="Enter Email"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+       />
+
+    <EditText
+
+        android:id="@+id/medtPassword"
+
+        android:layout_marginTop="390dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Enter Password"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:inputType="numberPassword"
+        android:background="@drawable/rounded_edittext"
+
+
+        />
+
+    <Button
+        android:id="@+id/mbtnLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp"
+        android:layout_centerHorizontal="true"
+        android:text="Log in"
+        android:fontFamily="casual"
+        android:backgroundTint="#085375"
+        android:textColor="#0D0E0E"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+       />
+
+    <TextView
+        android:id="@+id/mtvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+       
+        android:textSize="22dp"
+android:fontFamily="casual"
+        android:text="Don't have an account?Click here."
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DurationActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_login"
+
+        />
+    <View
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/background_login"
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/mtvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:text="How long did you do that?"
+        android:textSize="35dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="casual"
+        android:textColor="@color/black"/>
+
+<EditText
+    android:id="@+id/edthours"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="280dp"
+    android:layout_marginBottom="143dp"
+    android:ems="10"
+    android:hint="how many hours?"
+    android:textColor="@color/black"
+    android:textSize="22dp"
+    android:textAlignment="center"
+    android:fontFamily="casual"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/rounded_edittext"/>
+
+    <EditText
+        android:id="@+id/edtminutes"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="143dp"
+        android:ems="10"
+        android:hint="How many minutes?"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"/>
+
+
+    <Button
+        android:id="@+id/mbtnLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp"
+        android:layout_centerHorizontal="true"
+        android:text="Hand in"
+        android:fontFamily="casual"
+        android:backgroundTint="#085375"
+        android:textColor="#0D0E0E"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+
+
+
+</RelativeLayout>

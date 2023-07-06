@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B36F6A">
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:id="@+id/mtvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="Workout Plans"
+            android:textSize="40dp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#251010"
+            android:fontFamily="casual"
+
+            android:layout_marginLeft="5dp"
+            android:text="Customize these plans based on your fitness level, goals, and any specific requirements or limitations you may have. It's always a good idea to consult with a fitness professional or trainer to ensure the workout plan suits your needs and is executed safely and effectively."
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_weight="1"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.Full-Body Workout Plan"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#D8766F"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 1: Squats, push-ups, lunges, shoulder press, planks."
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 2: Deadlifts, bench press, bent-over rows, bicep curls, tricep dips."
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 3: Step-ups, chest flyes, lateral raises, Russian twists, mountain climbers."
+
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_weight="1"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.Cardiovascular Workout Plan"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#D8766F"
+                        android:fontFamily="casual"
+
+
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                       android:layout_marginLeft="5dp"
+                        android:text="Day 1: 30 minutes of running or jogging."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 2: 45 minutes of cycling or spinning."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+android:text="Day 3: 20 minutes of high-intensity interval training (HIIT) workouts."
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_weight="1"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.Strength Training Workout Plan:"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#D8766F"
+                        android:fontFamily="casual"
+
+
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 1: Back squats, Romanian deadlifts, pull-ups, bench press, shoulder press."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 2: Bulgarian split squats, bent-over rows, dumbbell chest press, lateral raises, tricep pushdowns."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 3: Sumo deadlifts, step-ups, lat pulldowns, incline dumbbell press, bicep curls."
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.Core and Flexibility Workout Plan:"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#D8766F"
+                        android:fontFamily="casual"
+
+
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 1: Planks, Russian twists, mountain climbers, leg raises, seated forward folds.Day 1: Planks, Russian twists, mountain climbers, leg raises, seated forward folds."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 2: Bicycle crunches, side planks, standing toe touches, bridge pose, cat-cow stretches."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="18dp"
+                        android:textColor="#090808"
+                        android:fontFamily="casual"
+                        android:layout_marginLeft="5dp"
+                        android:text="Day 3: Reverse crunches, oblique twists, seated spinal twists, standing quad stretches, hamstring stretches."
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
